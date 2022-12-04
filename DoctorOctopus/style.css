@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+body{
+    font-family: 'Nova Mono', monospace;
+    background-color: rgb(36, 6, 70);
+    color: white;
+    justify-content: center;
+}
+.nav-bar{
+    list-style-type: none;
+}
+.nav-item{
+    display: inline;
+    padding : 10px;
+    float: right;
+    margin-left: 10px;
+}
+.nav{
+    display: block;
+    background-color: rgb(234, 195, 240);
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+}
+.header {
+    text-align: center;
+    height: 300px;
+}
+h1{
+    font-size: 220%;
+}
+p{
+    font-size: 140%;
+}
+#queue {
+    margin-top: 30px;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Nova Mono', monospace;
+}
+.hist{
+    width: 40%;
+    justify-content: center;
+}
+#octoimg{
+    width: 20%;
+    height: 20%;
+    min-width: 210px;
+    max-width: 250px;
+    margin: 1%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    padding: 2rem;
+    align-items: center;
+}
+.card {
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin: 1rem;
+}
+.image-rev{
+    width: 50%;
+}
+.det{
+    font-size: 100%;
+}
+.container-rev{
+    display: flex;
+    justify-content: center;
+}
+.review{
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 90px;
+}
+.about1{
+    font-size: 20px;
+}
+.about{
+    width: 400px;
+    margin-left: 60px;
+}
+#map{
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width:600px){
+    .container{
+        flex-direction: column-reverse;
+
+    }
+    h1{
+        font-size: 220%;
+    }
+    p{
+        font-size: 100%;
+    }
+    .hist{
+        width: 72%;
+
+    }
+    .container-rev{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-rev{
+        margin-top: 1rem;
+        width: 70%;
+    }
+    .about{
+        width: 100%;
+        margin-left: 1rem;
+        font-size: 100%;
+    }
+    .about1{
+        font-size: 100%;
+    }
+    #map{
+        width: 80vw;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+}
